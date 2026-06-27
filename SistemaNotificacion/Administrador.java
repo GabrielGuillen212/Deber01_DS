@@ -18,6 +18,10 @@ public class Administrador {
         System.out.print("gestiona el itinerario");
     }
 
+    public void gestionarRembolso(){
+        System.out.print("gestiona los rembolsos");
+    }
+
     public String getidA(){
         return idAdmin;
     }

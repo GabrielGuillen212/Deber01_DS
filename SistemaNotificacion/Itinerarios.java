@@ -12,4 +12,12 @@ public class Itinerarios {
     public ArrayList<Vuelos> getItinerario(){
         return List_Vuelos;
     }
+
+    public void agregarVuelo(Vuelos vuelo){
+        List_Vuelos.add(vuelo);
+    }
+
+    public void removerVuelo(Vuelos vuelo){
+        List_Vuelos.remove(vuelo);
+    }
 }
