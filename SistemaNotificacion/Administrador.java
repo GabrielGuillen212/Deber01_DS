@@ -14,6 +14,10 @@ public class Administrador {
         System.out.print("El admin mando un mensaje");
     }
 
+    public void gestionarItinerario(){
+        System.out.print("gestiona el itinerario");
+    }
+
     public String getidA(){
         return idAdmin;
     }

@@ -11,4 +11,8 @@ public class Pasajero {
     public String getasiento(){
         return asiento;
     }
+
+    public void setasiento(String asiento){
+        this.asiento = asiento;
+    }
 }
