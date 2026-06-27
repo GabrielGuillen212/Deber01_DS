@@ -22,6 +22,10 @@ public class Administrador {
         System.out.print("gestiona los rembolsos");
     }
 
+    public void gestionarPoliticas(){
+        System.out.print("gestiona las politicas de cancelacion");
+    }
+
     public String getidA(){
         return idAdmin;
     }
