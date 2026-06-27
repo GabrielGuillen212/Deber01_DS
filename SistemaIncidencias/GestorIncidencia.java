@@ -2,7 +2,7 @@ package SistemaIncidencias;
 
 public class GestorIncidencia {
 
-    public void ResolverIncidencia(Incidencia incidencia) {
+    public void resolverIncidencia(Incidencia incidencia) {
         incidencia.setEstado("Resulta");
     }
 
