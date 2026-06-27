@@ -11,6 +11,14 @@ public class Administrador {
     }
 
     public void notificar(String appnotificacion, String mensaje){
-        
+        System.out.print("El admin mando un mensaje");
+    }
+
+    public String getidA(){
+        return idAdmin;
+    }
+
+    public String getnombre(){
+        return nombre;
     }
 }
